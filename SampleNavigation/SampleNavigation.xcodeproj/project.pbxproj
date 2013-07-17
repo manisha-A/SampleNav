@@ -20,6 +20,34 @@
 		13476DD2179657320080C943 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13476DD0179657320080C943 /* MainStoryboard_iPad.storyboard */; };
 		13476DD5179657320080C943 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13476DD4179657320080C943 /* MasterViewController.m */; };
 		13476DD8179657320080C943 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13476DD7179657320080C943 /* DetailViewController.m */; };
+		13476DE0179659B30080C943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13476DC1179657320080C943 /* main.m */; };
+		13476DE1179659B30080C943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13476DC5179657320080C943 /* AppDelegate.m */; };
+		13476DE2179659B30080C943 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13476DD4179657320080C943 /* MasterViewController.m */; };
+		13476DE3179659B30080C943 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13476DD7179657320080C943 /* DetailViewController.m */; };
+		13476DE5179659B30080C943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476DB5179657320080C943 /* UIKit.framework */; };
+		13476DE6179659B30080C943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476DB7179657320080C943 /* Foundation.framework */; };
+		13476DE7179659B30080C943 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476DB9179657320080C943 /* CoreGraphics.framework */; };
+		13476DE9179659B30080C943 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13476DBE179657320080C943 /* InfoPlist.strings */; };
+		13476DEA179659B30080C943 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13476DC7179657320080C943 /* Default.png */; };
+		13476DEB179659B30080C943 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13476DC9179657320080C943 /* Default@2x.png */; };
+		13476DEC179659B30080C943 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13476DCB179657320080C943 /* Default-568h@2x.png */; };
+		13476DED179659B30080C943 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13476DCD179657320080C943 /* MainStoryboard_iPhone.storyboard */; };
+		13476DEE179659B30080C943 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13476DD0179657320080C943 /* MainStoryboard_iPad.storyboard */; };
+		13476E08179659C80080C943 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = 13476DF7179659C80080C943 /* my_first.feature */; };
+		13476E09179659C80080C943 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 13476DF9179659C80080C943 /* launch_steps.rb */; };
+		13476E0A179659C80080C943 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = 13476DFB179659C80080C943 /* env.rb */; };
+		13476E0B179659C80080C943 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13476DFC179659C80080C943 /* frank_static_resources.bundle */; };
+		13476E0C179659C80080C943 /* frankify.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13476DFD179659C80080C943 /* frankify.xcconfig */; };
+		13476E0D179659C80080C943 /* libCocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476DFE179659C80080C943 /* libCocoaAsyncSocket.a */; };
+		13476E0E179659C80080C943 /* libCocoaAsyncSocketMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476DFF179659C80080C943 /* libCocoaAsyncSocketMac.a */; };
+		13476E0F179659C80080C943 /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E00179659C80080C943 /* libCocoaHTTPServer.a */; };
+		13476E10179659C80080C943 /* libCocoaHTTPServerMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E01179659C80080C943 /* libCocoaHTTPServerMac.a */; };
+		13476E11179659C80080C943 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E02179659C80080C943 /* libCocoaLumberjack.a */; };
+		13476E12179659C80080C943 /* libCocoaLumberjackMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E03179659C80080C943 /* libCocoaLumberjackMac.a */; };
+		13476E13179659C80080C943 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E04179659C80080C943 /* libFrank.a */; };
+		13476E14179659C80080C943 /* libFrankMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E05179659C80080C943 /* libFrankMac.a */; };
+		13476E15179659C80080C943 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E06179659C80080C943 /* libShelley.a */; };
+		13476E16179659C80080C943 /* libShelleyMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13476E07179659C80080C943 /* libShelleyMac.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +70,23 @@
 		13476DD4179657320080C943 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		13476DD6179657320080C943 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		13476DD7179657320080C943 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		13476DF2179659B30080C943 /* SampleNavigation copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleNavigation copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13476DF4179659B30080C943 /* SampleNavigation copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleNavigation copy-Info.plist"; path = "/Users/manisha/SampleNavigation/SampleNavigation/SampleNavigation copy-Info.plist"; sourceTree = "<absolute>"; };
+		13476DF7179659C80080C943 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		13476DF9179659C80080C943 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		13476DFB179659C80080C943 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		13476DFC179659C80080C943 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		13476DFD179659C80080C943 /* frankify.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = frankify.xcconfig; sourceTree = "<group>"; };
+		13476DFE179659C80080C943 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaAsyncSocket.a; sourceTree = "<group>"; };
+		13476DFF179659C80080C943 /* libCocoaAsyncSocketMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaAsyncSocketMac.a; sourceTree = "<group>"; };
+		13476E00179659C80080C943 /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaHTTPServer.a; sourceTree = "<group>"; };
+		13476E01179659C80080C943 /* libCocoaHTTPServerMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaHTTPServerMac.a; sourceTree = "<group>"; };
+		13476E02179659C80080C943 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = "<group>"; };
+		13476E03179659C80080C943 /* libCocoaLumberjackMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaLumberjackMac.a; sourceTree = "<group>"; };
+		13476E04179659C80080C943 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		13476E05179659C80080C943 /* libFrankMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrankMac.a; sourceTree = "<group>"; };
+		13476E06179659C80080C943 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+		13476E07179659C80080C943 /* libShelleyMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelleyMac.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,15 +100,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13476DE4179659B30080C943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13476DE5179659B30080C943 /* UIKit.framework in Frameworks */,
+				13476DE6179659B30080C943 /* Foundation.framework in Frameworks */,
+				13476DE7179659B30080C943 /* CoreGraphics.framework in Frameworks */,
+				13476E0D179659C80080C943 /* libCocoaAsyncSocket.a in Frameworks */,
+				13476E0E179659C80080C943 /* libCocoaAsyncSocketMac.a in Frameworks */,
+				13476E0F179659C80080C943 /* libCocoaHTTPServer.a in Frameworks */,
+				13476E10179659C80080C943 /* libCocoaHTTPServerMac.a in Frameworks */,
+				13476E11179659C80080C943 /* libCocoaLumberjack.a in Frameworks */,
+				13476E12179659C80080C943 /* libCocoaLumberjackMac.a in Frameworks */,
+				13476E13179659C80080C943 /* libFrank.a in Frameworks */,
+				13476E14179659C80080C943 /* libFrankMac.a in Frameworks */,
+				13476E15179659C80080C943 /* libShelley.a in Frameworks */,
+				13476E16179659C80080C943 /* libShelleyMac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		13476DA6179657320080C943 = {
 			isa = PBXGroup;
 			children = (
+				13476DF5179659C80080C943 /* Frank */,
 				13476DBB179657320080C943 /* SampleNavigation */,
 				13476DB4179657320080C943 /* Frameworks */,
 				13476DB2179657320080C943 /* Products */,
+				13476DF4179659B30080C943 /* SampleNavigation copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				13476DB1179657320080C943 /* SampleNavigation.app */,
+				13476DF2179659B30080C943 /* SampleNavigation copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +183,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13476DF5179659C80080C943 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				13476DF6179659C80080C943 /* features */,
+				13476DFC179659C80080C943 /* frank_static_resources.bundle */,
+				13476DFD179659C80080C943 /* frankify.xcconfig */,
+				13476DFE179659C80080C943 /* libCocoaAsyncSocket.a */,
+				13476DFF179659C80080C943 /* libCocoaAsyncSocketMac.a */,
+				13476E00179659C80080C943 /* libCocoaHTTPServer.a */,
+				13476E01179659C80080C943 /* libCocoaHTTPServerMac.a */,
+				13476E02179659C80080C943 /* libCocoaLumberjack.a */,
+				13476E03179659C80080C943 /* libCocoaLumberjackMac.a */,
+				13476E04179659C80080C943 /* libFrank.a */,
+				13476E05179659C80080C943 /* libFrankMac.a */,
+				13476E06179659C80080C943 /* libShelley.a */,
+				13476E07179659C80080C943 /* libShelleyMac.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		13476DF6179659C80080C943 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				13476DF7179659C80080C943 /* my_first.feature */,
+				13476DF8179659C80080C943 /* step_definitions */,
+				13476DFA179659C80080C943 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		13476DF8179659C80080C943 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				13476DF9179659C80080C943 /* launch_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		13476DFA179659C80080C943 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				13476DFB179659C80080C943 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +247,23 @@
 			name = SampleNavigation;
 			productName = SampleNavigation;
 			productReference = 13476DB1179657320080C943 /* SampleNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13476DDE179659B30080C943 /* SampleNavigation Frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13476DEF179659B30080C943 /* Build configuration list for PBXNativeTarget "SampleNavigation Frankified" */;
+			buildPhases = (
+				13476DDF179659B30080C943 /* Sources */,
+				13476DE4179659B30080C943 /* Frameworks */,
+				13476DE8179659B30080C943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleNavigation Frankified";
+			productName = SampleNavigation;
+			productReference = 13476DF2179659B30080C943 /* SampleNavigation copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,6 +288,7 @@
 			projectRoot = "";
 			targets = (
 				13476DB0179657320080C943 /* SampleNavigation */,
+				13476DDE179659B30080C943 /* SampleNavigation Frankified */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +307,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13476DE8179659B30080C943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13476DE9179659B30080C943 /* InfoPlist.strings in Resources */,
+				13476DEA179659B30080C943 /* Default.png in Resources */,
+				13476DEB179659B30080C943 /* Default@2x.png in Resources */,
+				13476DEC179659B30080C943 /* Default-568h@2x.png in Resources */,
+				13476DED179659B30080C943 /* MainStoryboard_iPhone.storyboard in Resources */,
+				13476DEE179659B30080C943 /* MainStoryboard_iPad.storyboard in Resources */,
+				13476E08179659C80080C943 /* my_first.feature in Resources */,
+				13476E09179659C80080C943 /* launch_steps.rb in Resources */,
+				13476E0A179659C80080C943 /* env.rb in Resources */,
+				13476E0B179659C80080C943 /* frank_static_resources.bundle in Resources */,
+				13476E0C179659C80080C943 /* frankify.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -186,6 +336,17 @@
 				13476DC6179657320080C943 /* AppDelegate.m in Sources */,
 				13476DD5179657320080C943 /* MasterViewController.m in Sources */,
 				13476DD8179657320080C943 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13476DDF179659B30080C943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13476DE0179659B30080C943 /* main.m in Sources */,
+				13476DE1179659B30080C943 /* AppDelegate.m in Sources */,
+				13476DE2179659B30080C943 /* MasterViewController.m in Sources */,
+				13476DE3179659B30080C943 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +453,36 @@
 			};
 			name = Release;
 		};
+		13476DF0179659B30080C943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleNavigation/SampleNavigation-Prefix.pch";
+				INFOPLIST_FILE = "SampleNavigation copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				PRODUCT_NAME = "SampleNavigation copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13476DF1179659B30080C943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleNavigation/SampleNavigation-Prefix.pch";
+				INFOPLIST_FILE = "SampleNavigation copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				PRODUCT_NAME = "SampleNavigation copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +500,14 @@
 			buildConfigurations = (
 				13476DDC179657320080C943 /* Debug */,
 				13476DDD179657320080C943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13476DEF179659B30080C943 /* Build configuration list for PBXNativeTarget "SampleNavigation Frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13476DF0179659B30080C943 /* Debug */,
+				13476DF1179659B30080C943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
